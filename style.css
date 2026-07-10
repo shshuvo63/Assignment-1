@@ -21,7 +21,26 @@
     border: none;
     cursor: pointer;
 }
-
+.outline-btn{
+    background-color: white ;
+    padding: 10px 20px;
+    border-radius: 12px;
+    font-weight: bold;
+    font-size: 22px;
+    color:#1D4ED8;
+    border: 1px solid #1D4ED8;
+    cursor: pointer;
+}
+.outline-btn-2{
+    
+    padding: 10px 20px;
+    border-radius: 12px;
+    font-weight: bold;
+    font-size: 22px;
+    color:#575757;
+    border: 1px solid #575757;
+    cursor: pointer;
+}
 nav {
     
     display: flex;
@@ -29,7 +48,7 @@ nav {
     padding: 12px;
 }
 
-ul{
+.nav ul{
     display: flex;
     justify-content: space-between;
     list-style: none;
@@ -154,6 +173,101 @@ ul li a {
     font-size:16px;
     line-height:26px
 }
+
+/* Pricing section css */
+
+.pricing-parent{  
+    text-align: center;
+    padding:50px 0;
+}
+.pricing-title{ 
+    text-align:center;
+    margin-bottom:50px;
+}
+
+.pricing-title h2{
+    font-size:48px;
+    font-weight:700;
+    color:#000102;
+    margin-bottom:10px;
+}
+
+.pricing-title p{
+    color:#575757;
+    font-size:16px;
+}
+
+.pricing-card-container{
+    margin-top: 20px;
+    display: flex;
+    justify-content:center;
+    gap: 25px;    
+}
+
+.pricing-card{   
+    border:1px solid #e5e7eb;
+    border-radius: 10px;
+    padding: 30px;
+    text-align: left;  
+}
+
+.pricing-card-container .pricing-card small{
+    color:#6b7280;
+}
+
+.plan{
+    color:#888888;
+    font-size:12px;
+    font-weight:700;
+    text-transform:uppercase;
+}
+.feature{
+    color: #333333;
+    font-size:15px;
+    line-height:24px;   
+}
+.pro{
+    background-color: #0D1B2A;
+    color: #fff;
+}
+
+.pro h3{
+    color: #fff;
+}
+
+.pro small{
+    color: #d1d5db;
+}
+
+.pro .plan,
+.pro li{
+    color: #d1d5db;
+}
+
+.pro hr{
+    border: none;
+    border-top: 1px solid #334155;
+}
+
+.pro .common-btn{
+    margin-top: 15px;
+    background: #2563EB;
+    color: white;
+    width: 100%;
+}
+
+.outline-btn-1{
+    margin-top: 15px;
+}
+
+.outline-btn-2{
+    margin-top: 15px;
+}
+
+
+
+
+
 
 
 
